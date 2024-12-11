@@ -19,7 +19,7 @@ const PORT = process.env.PORT || 8080;
 
 app.use(
   cors({
-    origin: "https://malmoi-frontendymg.azurewebsites.net", // React 앱 주소
+    origin: "https://malmoi-frontendymg-d0acfhb2b5cfecbv.koreacentral-01.azurewebsites.net", // React 앱 주소
     methods: ["GET", "POST", "PUT", "DELETE"], // 허용할 HTTP 메서드
     credentials: true, // 쿠키, 인증 정보를 포함하려면 설정
   })
